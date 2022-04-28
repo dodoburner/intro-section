@@ -8,10 +8,22 @@
   color: hsl(228, 45%, 44%);
  }
 
+ html {
+   background-color: black;
+   display: flex;
+   justify-content: center;
+ }
+ 
 body {
   font-family: 'Epilogue', sans-serif;
   font-size: 18px;
   background-color: hsl(0, 0%, 98%);
+  margin: 0;
+  width: 1440px;
+}
+
+p {
+  margin: 0;
 }
 
 header {
@@ -103,4 +115,52 @@ header button:hover {
 }
 .dropdown .up-icon {
   display: none;
+}
+
+/*----------------------------------------*/
+/* ------MAIN STYLES START HERE---------- */
+/*----------------------------------------*/
+
+main {
+  display: flex;
+  height: 650px;
+  margin:80px 0px 80px 150px
+}
+
+#main-left {
+  margin-right: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#hero {
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+#description {
+  color: hsl(0, 0%, 41%);
+  line-height: 24px;
+  max-width: 450px;
+}
+
+#learn-more-btn {
+  width: 150px;
+  padding:15px 20px;
+  background-color: hsl(0, 0%, 8%);
+  color:  hsl(0, 0%, 98%);
+  font-family: inherit;
+  font-size: 16px;
+  border-radius: 10px;
+  border-style: none;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+#client-icons {
+ display: flex;
+ align-items: center;
+ justify-content: space-between
 }
