@@ -93,3 +93,14 @@ header button:hover {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.dropdown:hover .down-icon{
+  display: none;
+}
+
+.dropdown:hover .up-icon{
+  display:initial;
+}
+.dropdown .up-icon {
+  display: none;
+}
